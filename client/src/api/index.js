@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Create an Axios instance with a base URL
-const API = axios.create({ baseURL: 'http://localhost:5000' });
+const API = axios.create({ baseURL: 'https://memories-app-backend-5z6p.onrender.com' });
 
 // Interceptor to add Authorization header to each request if a token exists in localStorage
 API.interceptors.request.use((req) => {
